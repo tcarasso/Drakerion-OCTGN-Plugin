@@ -13,7 +13,7 @@ Once the octgn app is properly installed, you just need to register on their off
 
 Please, fill free to fill up an issue Ticket if you have any question or suggestion about the plugin, I'll do my best to answer as soon as possible !
 
-If you want to find other players and keep being updated on the best Dark Fantasy TCG to come, give a visit to https://.drakerion.com and come join us on the dedicated discord () !
+If you want to find other players and keep being updated on the best Dark Fantasy TCG to come, give a visit to https://drakerion.com and come join us on the dedicated discord () !
 
 Wish you the best time within and without the game, looking forward playing with you as well !
 
