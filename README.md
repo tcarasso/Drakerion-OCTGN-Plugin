@@ -9,6 +9,8 @@ Here you'll find :
 
 Octgn is an app that allow you to play many cardgames online, for free, that supports low specs computers, with some great scripted functionnality to make your experience as smooth as possible, along side a powerful and easy to use Deckbuilder !
 
+If you want to add Drakerion's Plugin to your Octgn app mannually : you can just go the Games Manager tab, scroll down until you reach Drakerion TCG, click on it and click on install.
+
 Once the octgn app is properly installed, you just need to register on their official website here and you're good to go and can start having fun : https://www.octgn.net/Account/Register
 
 Please, fill free to fill up an issue Ticket if you have any question or suggestion about the plugin, I'll do my best to answer as soon as possible !
