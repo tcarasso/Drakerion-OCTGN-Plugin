@@ -1,0 +1,33 @@
+Shortcut brief help :
+
+F1 - this help in chatbox
+F2 - Ready all your cards
+F10 - Reset Screen Position
+F11 - Full Screen
+CTRL+SHIFT+R - Flip a coin
+tab - Pass
+Double click on a card - Commit/Ready card
+CTRL+M - Mulligan your hand
+CTRL+D - Draw card
+CTRL+SHIFT+D - Draw many cards
+CTRL+S - Shuffle Deck
+CTRL+C - Choose card(s) from top X of your Deck, shuffle the rest and put to the bottom of your Deck
+CTRL+SHIFT+C - Scry x cards
+CTRL+W - Add Prestige
+CTRL+SHIFT+W - Remove Prestige
+CTRL+G - Add Gold
+CTRL+SHIFT+G - Remove Gold
+While hovering on a card :
+If Card is a banner : CTRL+SHIFT+U - Set up
+If Card is a character : CTRL+SHIFT+A - Declare attack
+CTRL+X - Attach Card to Target/Dettach
+CTRL+F - Flip card
+CTRL+A - Add/Remove Marker
+Del - Discard card
+CTRL+Q - Add random Marker
+CTRL+W - Remove random Marker
+CTRL+H - Move to Hand
+CTRL+E - Move to Deck
+ALT+CTRL+E - Move to Deck (bottom)
+PgUp - Bring to Front
+PgDn - Send to Back

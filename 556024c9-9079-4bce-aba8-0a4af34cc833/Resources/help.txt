@@ -1,0 +1,135 @@
+(Last modified 11/03/2023)
+
+This is the Drakerion TCG Game Definition for OCTGN.
+You can always find the latest information on running Drakerion with OCTGN on the game discord server : https://discord.com/invite/EhSCqCfvcC.
+
+All of this couldn't have been possible without the kind help and online work from the octgn community and other games definitions available, thanks a ton to all of them, go check them out : https://github.com/octgn/OCTGN !
+
+All Shortcuts can be used when hovering a card/pile/zone :
+
+------UNIVERSAL OCTGN FUNCTIONS (not linked to game functions)------
+
+(these work in ALL OCTGN games)
+
+Zoom the Table
+ -- Use the scroll wheel on a mouse.
+
+Move/Pan the Table
+ -- Hold the spacebar and click-drag the Table.
+
+Increment/Decrement counters on a card
+ -- Use the +/- keys on your keyboard's NUM pad while hovering over the counter.
+
+Move counters from one card to another
+ -- Click-drag the counter to the other card.
+
+Target/untarget a card
+ -- Hold SHIFT and click on the card.
+
+Draw an Arrow between two cards
+ -- Hold SHIFT and click-drag from one card to the other.
+
+Select multiple cards
+ -- Either click-drag a selection box over the region of cards, or hold CTRL and click a card.
+
+Play card face-down to the table
+ -- Click-Drag a card in your hand, then hold SHIFT as you drop the card onto the Table.
+
+Ready/Commit your card (Double-Click)
+ -- Will Ready/Commit your card
+
+Peek at your card (CTRL+P)
+ -- Will allow you to peek at a face-down card, your opponnent will be informed of that through an eye icon on the card.
+
+Bring to Front (PgUp)
+ -- Will bring the card to the front over all the rest of the card on the table.
+
+Send to Back (PgDn)
+ -- Will send the card back under all the rest of the card on the table.
+
+Reset Screen Position (F10)
+ -- Will reset the table (position and zoom) to it's onload position
+
+Full Screen (F11)
+ -- Will put the game on Full Screen mode.
+
+----- DRAKERION SPECIFIC OVERALL FUNCTIONS -----
+
+Discard card (DEL)
+ -- Will put your card in it's owner discard pile (will works from deck, hand, board or any pile).
+
+------ DRAKERION SPECIFIC TABLE FUNCTIONS ------
+
+Shortcut Brief (F1)
+ -- Will pop a more condensed Shortcut Brief in the chatbox.
+
+Ready all your cards (F2)
+-- Will ready all the commited card you control on the board.
+
+Pass Priority (TAB)
+ -- Will announce to other players that you pass priority (don't have any responses.)
+
+Mulligan (CTRL+M)
+ -- Will open a dialog box, allowing you to move as many card as you want from your hand to the bottom of your deck, redraw the same amount of cards, than shuffle your deck.
+
+Gain 1 Prestige (CTRL+W)
+ -- Will add 1 Prestige to your Prestige counter.
+
+Lose 1 Prestige (CTRL+SHIFT+W)
+ -- Will remove 1 Prestige from your Prestige counter.
+
+Gain 1 Gold (CTRL+G)
+ -- Will add 1 gold to your Gold(s) counter.
+
+Gain 1 Gold (CTRL+SHIFT+G)
+ -- Will remove 1 gold from your Gold(s) counter.
+
+Draw card (CTRL+D)
+ -- Will draw one card from your deck (you can also double-click on your deck)
+
+Draw many Card(s) (CTRL+SHIFT+D)
+ -- Will ask you how many card you want to draw from your deck.
+
+Choose card(s) from the top x card(s) of your deck, shuffle the rest and put it at the bottom of your deck (CTRL+C)
+ -- Will open a dialog box which allow you to move cards from the top x card(s) of your deck, and moves them to your hand, then shuffle the rest back and place them aat the bottom of your deck and then ask you if you want to reaveal or not the choosen card.
+
+Scry (CTRL+SHIFT+C)
+ -- Will open a dialog box which allow you to move cards from the top x cards of your deck to the bottom of your deck, in the order you want, and let you reange the rest of the cards in any order.
+
+Flip card face Up/Down (CTRL+F)
+ -- Will flip the card face Up/Down
+
+Declare Attacker (CTRL+SHIFT+A)
+ -- Will commit and hilight your attacker, then open a dialog box for you to choose which character to attack (will only work if triggered on a Character card).
+
+Highlight Card (CTRL+A)
+ -- Will highlght your card, or remove highlights if card already has one.
+
+Do Banner Set-Up (CTRL+SHIFT+U)
+ -- Will search and put on the table all the card needed for your set up, then shuffle your deck (will only work if triggered on a Banner card).
+
+Collect Resources (CTRL+C)
+ -- Will add gold(s) and draw card(s) according to the selected maneuver, making sure you don't forget 'The South is shut (will only work if triggered on a Maneuver card).
+
+Add a random Marker (CTRL+Q)
+ -- Will add a random Marker to your card (will also clear the card of all targets or highlights)
+
+Remove a random Marker (CTRL+SHIFT+Q)
+ -- Will remove a random Marker from your card (will also clear the card of all targets or highlights)
+
+Move to Hand (CTRL+H)
+ -- Will move your card from the table to your hand.
+
+Move to deck (CTRL+E)
+ -- Will move a card from the table to your deck.
+
+Attach a card to another card (CTRL+X)
+ -- Target (shift-click) the card that will be the 'target' of the attachment.
+ -- Right-click the Attachment card and select "Attach to Targeted Card" (or use the shortcut).
+ -- Using this on an already attached card will dettach it instead.
+
+------ DRAKERION SPECIFIC HAND FUNCTIONS ------
+
+Play (Double-Click)
+ -- Will put the card on the table, removes the amount of Gold(s) from your Gold(s) counter, if you have enough golds to.
+ -- If you need to commit your City is asked to play the card, it will ask you to do it, or prevent you from playing the card if your city is already commited.

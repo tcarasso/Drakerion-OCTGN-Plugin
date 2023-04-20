@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="556024c9-9079-4bce-aba8-0a4af34cc833">
+  <section name="Banner" shared="False">
+    <card qty="1" id="c37dc675-4c88-91b4-84e5-a56533694a99">Alliance of the ancient folk</card>
+  </section>
+  <section name="City" shared="False">
+    <card qty="1" id="4888465f-8970-62a2-9619-b765b31d17bb">Kharonis, Torn Haven</card>
+  </section>
+  <section name="Sound the Retreat" shared="False">
+    <card qty="1" id="4b4ba35e-d632-406f-95fe-bc5923becddf">Sound the Retreat</card>
+  </section>
+  <section name="Maneuvers deck" shared="False">
+    <card qty="1" id="a07aafaa-7fe7-4983-909a-04d88a33beae">Harvest time</card>
+    <card qty="1" id="1633f321-d01f-4c49-b233-1894c5c8b109">Gathering information</card>
+    <card qty="1" id="a10e9a61-18f4-47f8-9298-f20f5e1cf24b">The north is shut</card>
+    <card qty="1" id="37677d57-37cb-4c5f-8d08-db41462d4c45">Avaricious traitors in your midst</card>
+    <card qty="1" id="c1c739ee-a0ae-0e14-ac11-8568b75169b9">Forced truce</card>
+    <card qty="1" id="1989de32-bc5d-c696-a79c-54d422438e64">The unspeakable pact</card>
+    <card qty="1" id="e197d7cc-198c-6f2a-ab7f-d3a4db6192a5">Leaves won't fall alone</card>
+    <card qty="1" id="bb3143f3-ae44-cb62-a24d-a78304e1d1b4">Host of Aerielle's glade</card>
+  </section>
+  <section name="Character" shared="False">
+    <card qty="4" id="8533299d-13a7-4d5f-9cc9-59a91d12576d">Angry guardian</card>
+    <card qty="4" id="cc7b8257-dd6e-8f7c-91d9-dcce1c341ef4">Hateful Assailant</card>
+    <card qty="4" id="5659372f-41cb-4cdf-97ee-8d96cbd2caed">Arrogant hammerer</card>
+    <card qty="4" id="d73d12ed-cf4a-9f61-b249-58e8eb6b9711">Morwern The last child</card>
+    <card qty="4" id="e3655f98-2d0c-b4e7-a639-87ab12218e35">Mount Khairn pathfinder</card>
+    <card qty="4" id="2b421ad8-cf81-954a-963d-2698b250ce43">Discreet thorn </card>
+    <card qty="4" id="16225f94-6717-7e43-a586-41a58d696122">Guardians of the rock</card>
+    <card qty="4" id="455549b4-99fe-4cc6-a772-f39a2abc6179">Thori Torkson King of the Mount Khairn</card>
+    <card qty="4" id="6d3bd3fe-d8a7-2a9d-9181-674f0a980b5f">Sylvan protector</card>
+    <card qty="4" id="1124694d-d860-42af-94d2-999ad16c4a6d">Resentful shooter</card>
+  </section>
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False">
+    <card qty="4" id="c95e653c-d2e9-db58-a2c6-811df0ae267e">The brother's choice</card>
+    <card qty="4" id="3494510e-b677-d6b6-9431-cc56fa7d52e8">Water is life</card>
+    <card qty="4" id="f1c1efaa-33fa-d224-85e4-bc1cc329197e">Mountain doesn't flinch</card>
+    <card qty="4" id="b3356b27-c9c4-198a-992e-6c271bd4680a">Strike while the iron is hot</card>
+    <card qty="4" id="1d41c12a-4d33-8992-b651-d76e481c7862">From shame to grudge</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

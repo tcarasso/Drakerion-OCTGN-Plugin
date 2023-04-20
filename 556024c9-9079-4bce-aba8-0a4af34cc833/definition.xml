@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game name="Drakerion TCG"
+	id="556024c9-9079-4bce-aba8-0a4af34cc833"
+	version="1.0.0.0"
+	tags="game"
+	description="A dark fantasy TCG"
+	setsurl="http://www.octgn.net" 
+	gameurl="https://drakerion.com/"
+	authors="LoreMasterGame, Plugin by Laplante"
+	iconurl="https://raw.githubusercontent.com/tcarasso/DrakerionOctgnModule/main/tmplogo.png"
+	octgnVersion="3.1.240.0"
+	scriptVersion="3.1.0.2"
+	markersize="25"
+	>
+	<scripts>
+		<script src="Scripts/actions.py" />
+		<script src="Scripts/forced.py" />
+	</scripts>
+	<events>
+		<event name="OnTableLoaded" action="welcomeSpeech" />
+		<event name="OnDeckLoaded" action="deckCheck" />
+		<event name="OnMarkerChanged" action="applyDamage" />
+		<event name="OnCardsMoved" action="moveCardEvent" />
+	</events>
+	<symbols>
+		<symbol name="Attack" id="attack" src="symbols/MeleeAttackIcon.png" />
+		<symbol name="Ranged Attack" id="range" src="symbols/RangedAttackIcon.png" />
+		<symbol name="HP" id="hp" src="symbols/LifeIcon.png" />
+		<symbol name="Riposte" id="riposte" src="symbols/RiposteIcon.png" />
+	</symbols>
+	<markers>
+	</markers>
+	<proxygen definitionsrc="Proxies/proxydef.xml">
+	</proxygen>
+	<documents>
+		<document name="Guide d'apprentissage" src="Resources/Guide_d-apprentissage.pdf" />
+		<document name="Apperçu des règles" src="Resources/Regles_Apercu.pdf" />
+		<document name="Quickstart Rules" src="Resources/Quickstart_Rules.pdf" />
+		<document name="Rules overview" src="Resources/Rules_overview.pdf" />
+		<document name="Gameplay Help" src="Resources/help.txt" icon="Resources/help.png" />
+		<document name="Shortcuts Brief" src="Resources/Shortcuts Brief.txt" icon="Resources/help.png" />
+	</documents>
+	<globalvariables>
+		<globalvariable name="cattach" value="{ }" />
+	</globalvariables>
+	<card back="Resources/back.png" front="Resources/back.png" width="63" height="88" cornerRadius="2" >
+		<property name="Type" type="String" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Faction" type="String" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Trait(s)" type="RichText" textKind="Tokens" hidden="False" ignoreText="False" />
+		<property name="Named" type="String" textKind="Free" hidden="True" ignoreText="False" />
+		<property name="Cost" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Melee Attack" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Ranged Attack" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Riposte" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Health Points" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Prestige" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Initiative" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Gold Value" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Draw Value" type="Integer" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Sub-type" type="String" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="Keyword(s)" type="String" textKind="Tokens" hidden="False" ignoreText="False" />
+		<property name="Text" type="RichText" textKind="Free" hidden="False" ignoreText="False" />
+		<property name="line" type="Integer" textKind="Free" hidden="True" ignoreText="False" />
+		<size name="Sonner la retraite B" back="Resources/Sonner la retraite2.png" front="Resources/back.png" width="63" height="88" cornerRadius="2"/>
+		<size back="Resources/back - Copie.png" front="Resources/back - Copie.png" name="Maneuver" width="88" height="63" backWidth="88" backHeight="63" cornerRadius="2"/>
+	</card>
+	<table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="Resources/back.jpg" backgroundStyle="uniformToFill">
+		<groupaction menu="Stand All Cards" shortcut="F2" execute="standAll"/>
+		<groupaction menu="Reveal All Facedown Cards" shortcut="F3" execute="revealAll"/>
+		<groupaction menu="Flip a Coin" shortcut="ctrl+shift+r" execute="flipCoin" />
+		<groupaction menu="Pass" shortcut="tab" execute="passTurn" />
+		<groupaction menu="Get help" shortcut="F1" execute="help" />
+		<groupaction menu="Add 1 Prestige" shortcut="ctrl+W" execute="addPrestige" />
+		<groupaction menu="Remove 1 Prestige" shortcut="ctrl+shift+W" execute="removePrestige" />
+		<groupaction menu="Add 1 Gold" shortcut="ctrl+G" execute="addGold" />
+		<groupaction menu="Remove 1 Gold" shortcut="ctrl+shift+G" execute="removeGold" />
+		<cardaction menu="Rotate Card" default="True" batchExecute="rotate" />
+		<cardaction menu="Flip Card Face Up/Down" shortcut="ctrl+f" batchExecute="flip" />
+		<cardaction menu="Add/Remove Highlight" shortcut="ctrl+A" batchExecute="highlightCard" />
+		<cardaction menu="Add Marker" shortcut="ctrl+Q" batchExecute="addMarker" />
+		<cardaction menu="Remove Marker" shortcut="ctrl+shift+Q" batchExecute="removeMarker" />
+		<cardaction menu="Declare Attack" shortcut="ctrl+shift+A" execute="declareAttack" />
+		<cardaction menu="Discard Card" shortcut="del" execute="discardCard" />
+		<cardaction menu="Do Banner Set Up" shortcut="ctrl+shift+U" execute="setUp" />
+		<cardaction menu="Attach Card to Target/Dettach Card" shortcut="CTRL+X" execute="attach" />
+		<cardaction menu="Collect Gold and Draw Cards from Maneuver" shortcut="ctrl+c" execute="collect" />
+	</table>
+	<player summary="Prestige: {#Prestige} / Gold(s): {#Gold(s)} / Hand: {#Hand}">
+		<counter name="Prestige" icon="symbols/PrestigeIcon.png"/>
+		<counter name="Gold(s)" icon="symbols/GoldIcon.png"/>
+	<group viewState="expanded" name="Hand" shortcut="ctrl+H" visibility="me" ordered="False" icon="Resources/hand.png">
+		<cardaction menu="Play" execute="play" default="True" />
+		<cardaction menu="Discard Card" shortcut="del" execute="discardCard" />
+		<cardactions menu="Move to">
+			<cardaction menu="Deck" shortcut="ctrl+E" execute="toDeck" />
+			<cardaction menu="Bottom of Deck" shortcut="ctrl+shift+E" execute="toDeckBottom" />
+		</cardactions>
+		<groupaction menu="Randomly Discard a Card" execute="randomDiscard" />
+		<groupaction menu="Randomly Pick a Card" execute="randomPick" />
+		<groupaction menu="Move All Cards to Deck" execute="allToDeck" />
+		<groupaction menu="Mulligan" shortcut="ctrl+M" execute="mulligan" />
+	</group>
+	<group name="Deck" shortcut="ctrl+E" visibility="none" icon="Resources/tmpdeck.png">
+		<groupaction menu="Draw" shortcut="ctrl+D" default="True" execute="draw" />
+		<groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawMany" />
+		<groupaction menu="Discard X Cards" execute="discardMany" />
+		<groupaction menu="Discard x Cards from bottom" execute="discardManyFromBottom" />
+		<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+		<groupaction menu="Choose card(s) from top X, shuffle rest to bottom" shortcut="ctrl+C" execute="chooseFromDeckTopXShuffleRest" />
+		<groupaction menu="Scry" shortcut="ctrl+shift+C" execute="scry" />
+	</group>
+	<group name="Maneuvers" visibility="none" icon="Resources/tmpmaneuver.png">
+		<groupaction menu="View Maneuvers" default="True" execute="viewGroup"/>
+	</group>
+	<group name="Discard" visibility="all" icon="Resources/tmpdiscard.png" shortcut="del">
+		<groupaction menu="View Discard" default="True" execute="viewGroup"/>
+		<groupaction menu="Move All Cards to Deck" execute="allToDeck" />
+		<cardactions menu="Move to">
+			<cardaction menu="Deck" shortcut="ctrl+E" execute="toDeck" />
+			<cardaction menu="Bottom of Deck" shortcut="ctrl+shift+E" execute="toDeckBottom" />
+		</cardactions>
+	</group>
+	</player>
+	<deck>
+		<section name="Banner" group="Hand" />
+		<section name="City" group="Hand" />
+		<section name="Sound the Retreat" group="Hand" />
+		<section name="Maneuvers deck" group="Maneuvers" />
+		<section name="Character" group="Deck" />
+		<section name="Attachment" group="Deck" />
+		<section name="Event" group="Deck" />
+	</deck>
+</game>

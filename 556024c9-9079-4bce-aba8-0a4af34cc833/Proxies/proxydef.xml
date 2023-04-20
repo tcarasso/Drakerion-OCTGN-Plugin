@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>    
+    <blocks>
+        <!-- Dummy blocks used if a template section only looks for conditionals -->
+        <block type="text" id="dummyText">
+            <location x="0" y="0"/>
+            <text color="#FFFFFF" size="0"/>
+            <border color="#FFFFFF" size="0"/>
+        </block>
+        <block type="text" id="default">
+            <location x="10" y="25"/>
+            <text color="#000000" size="30"/>
+        </block>
+        <block type="overlay" id="dummyOverlay" src="Proxies/proxyImages/dummy.png">
+            <location x="0" y="0"/> 
+        </block>        
+        
+        <!-- Character specific blocks -->      
+        <block type="text" id="CharacterCardKeyword(s)">
+            <location x="19" y="298"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="20" width="270"/>
+        </block>
+        <block type="text" id="CharacterCardText">
+            <location x="19" y="314"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="80" width="270" shrinktofit="True"/>
+        </block>
+            
+        <!-- City & Banner specific blocks -->
+        <block type="text" id="cityBannerCardText">
+            <location x="19" y="300"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="94" width="270" shrinktofit="True"/>
+        </block>
+        
+        <!-- Maneuver specific blocks -->
+        <block type="text" id="maneuverCardKeyword(s)">
+            <location x="11" y="198"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="20" width="385"/>
+        </block>
+        <block type="text" id="maneuverCardText">
+            <location x="11" y="214"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="60" width="385" shrinktofit="True"/>
+        </block>
+        
+        <!-- Event secific blocks -->
+        <block type="text" id="eventCardKeyword(s)">
+            <location x="32" y="290"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="20" width="235"/>
+        </block>
+        <block type="text" id="eventCardText">
+            <location x="32" y="306"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="95" width="235" shrinktofit="True"/>
+        </block>
+        
+        <!-- Attachment secific blocks -->
+        <block type="text" id="AttachmentCardKeyword(s)">
+            <location x="30" y="270"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="20" width="245"/>
+        </block>
+        <block type="text" id="AttachmentCardText">
+            <location x="30" y="286"/>
+            <text color="#000000" size="14" />
+            <wordwrap height="90" width="245" shrinktofit="True"/>
+        </block>
+    </blocks>   
+
+<!-- CITY CARD TEMPLATE -->
+    <template src="Proxies/proxyImages/Unaffiliated.png"     default="False">
+        <matches>
+            <match name="Type" value="City"/>
+        </matches>
+        
+        <overlayblocks>         
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="cityBannerCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+<!-- BANNER CARD TEMPLATE -->
+    <template src="Proxies/proxyImages/Unaffiliated.png"     default="False">
+        <matches>
+            <match name="Type" value="Banner"/>
+        </matches>
+        
+        <overlayblocks>         
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="cityBannerCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+<!-- MANEUVER CARD TEMPLATE -->
+    <template src="Proxies/proxyImages/Maneuver.png"        default="False">
+        <matches>
+            <match name="Type" value="Maneuver"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="300" width="414" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="maneuverCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="maneuverCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+<!-- EVENT CARD TEMPLATE -->
+    <!-- Unaffiliated -->
+    <template src="Proxies/proxyImages/Unaffiliated.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Unaffiliated"/>
+            <match name="Type"      value="Event"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="eventCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="eventCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+
+    <!-- Lokmar -->
+    <template src="Proxies/proxyImages/Lokmar.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Lokmar"/>
+            <match name="Type"      value="Event"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="eventCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="eventCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+        
+    <!-- Gil Estel -->
+    <template src="Proxies/proxyImages/Gil Estel.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Gil Estel"/>
+            <match name="Type"      value="Event"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="eventCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="eventCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+    <!-- Wasteland -->
+    <template src="Proxies/proxyImages/Wasteland.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Wasteland"/>
+            <match name="Type"      value="Event"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="eventCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="eventCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+        
+    <!-- Tyraslin -->
+    <template src="Proxies/proxyImages/Tyraslin.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Tyraslin"/>
+            <match name="Type"      value="Event"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="eventCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="eventCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+
+    
+<!-- CHARACTER CARD TEMPLATE -->
+    <!-- Unaffiliated -->
+    <template src="Proxies/proxyImages/Unaffiliated.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Unaffiliated"/>
+            <match name="Type"      value="Character"/>
+        </matches>
+        
+        <overlayblocks>                     
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="CharacterCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="CharacterCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template> 
+
+    <!-- Lokmar -->
+    <template src="Proxies/proxyImages/Lokmar.png"   default="False">
+        <matches>
+            <match name="Faction"   value="Lokmar"/>
+            <match name="Type"      value="Character"/>
+        </matches>
+        
+        <overlayblocks>                     
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="CharacterCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="CharacterCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+    <!-- Gil Estel -->
+    <template src="Proxies/proxyImages/Gil Estel.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Gil Estel"/>
+            <match name="Type"      value="Character"/>
+        </matches>
+        
+        <overlayblocks>                     
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="CharacterCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="CharacterCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+
+    <!-- Wasteland -->
+    <template src="Proxies/proxyImages/Wasteland.png"      default="False">
+        <matches>
+            <match name="Faction"   value="Wasteland"/>
+            <match name="Type"      value="Character"/>
+        </matches>
+        
+        <overlayblocks>                     
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="CharacterCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="CharacterCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+
+    <!-- Tyraslin -->
+    <template src="Proxies/proxyImages/Tyraslin.png" default="False">
+        <matches>
+            <match name="Faction"   value="Tyraslin"/>
+            <match name="Type"      value="Character"/>
+        </matches>
+        
+        <overlayblocks>                     
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>
+        </overlayblocks>
+        
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="CharacterCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="CharacterCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+<!-- ATTACHMENT CARD TEMPLATE -->
+    <!-- Unaffiliated -->
+    <template src="Proxies/proxyImages/Unaffiliated.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Unaffiliated"/>
+            <match name="Type"      value="Attachment"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>           
+        </overlayblocks>
+        
+        <textblocks>            
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="AttachmentCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="AttachmentCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+    <!-- Lokmar -->
+    <template src="Proxies/proxyImages/Lokmar.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Lokmar"/>
+            <match name="Type"      value="Attachment"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>           
+        </overlayblocks>
+        
+        <textblocks>            
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="AttachmentCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="AttachmentCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+    <!-- Gil Estel -->
+    <template src="Proxies/proxyImages/Gil Estel.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Gil Estel"/>
+            <match name="Type"      value="Attachment"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>           
+        </overlayblocks>
+        
+        <textblocks>            
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="AttachmentCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="AttachmentCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+    <!-- Wasteland -->
+    <template src="Proxies/proxyImages/Wasteland.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Wasteland"/>
+            <match name="Type"      value="Attachment"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>           
+        </overlayblocks>
+        
+        <textblocks>            
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="AttachmentCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="AttachmentCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+    
+    <!-- Tyraslin -->
+    <template src="Proxies/proxyImages/Tyraslin.png"     default="False">
+        <matches>
+            <match name="Faction"   value="Tyraslin"/>
+            <match name="Type"      value="Attachment"/>
+        </matches>
+        
+        <overlayblocks>                 
+            <artoverlay>
+                <location x="0" y="0" />
+                <size height="414" width="300" />
+            </artoverlay>           
+        </overlayblocks>
+        
+        <textblocks>            
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="AttachmentCardKeyword(s)">
+                <property name="Keyword(s)"/>
+            </link>
+            <link block="AttachmentCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+        
+<!-- UNKNOWN CARD TEMPLATE -->
+    <template src="Proxies/proxyImages/Tyraslin.png" default="True">
+        <matches>
+            <match name="dummy" value="dummy"/>
+        </matches>
+        <overlayblocks>
+            <link block="dummyOverlay"/>
+        </overlayblocks>
+        <textblocks>
+            <link block="default">
+                <property name="Name"/>
+            </link>
+            <link block="AttachmentCardText">
+                <property name="Text"/>
+            </link>
+        </textblocks>
+    </template>
+</templates>

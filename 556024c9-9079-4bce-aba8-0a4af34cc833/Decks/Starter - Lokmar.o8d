@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="556024c9-9079-4bce-aba8-0a4af34cc833">
+  <section name="Banner" shared="False">
+    <card qty="1" id="1d26a19f-48a8-4393-a31f-825942e9da20">Banner of the prime legion</card>
+  </section>
+  <section name="City" shared="False">
+    <card qty="1" id="2869f308-ff40-40b8-8958-cac588bffff6">Fortress of the prime legion</card>
+  </section>
+  <section name="Sound the Retreat" shared="False">
+    <card qty="1" id="4b4ba35e-d632-406f-95fe-bc5923becddf">Sound the Retreat</card>
+  </section>
+  <section name="Maneuvers deck" shared="False">
+    <card qty="1" id="62b4247a-c388-4133-824c-9bda8cf854cf">Grow in their suffering</card>
+    <card qty="1" id="51b2435d-c4f2-49f9-a215-8f8cd2369f51">This world is already ours</card>
+    <card qty="1" id="4b6ef782-7632-4831-bcbc-7acc6d82fbf9">You can only join us</card>
+    <card qty="1" id="5334fd69-f39d-49be-ae6d-d883ba5e79bb">Assault from dark paths</card>
+    <card qty="1" id="cc5bf4ba-baea-4016-add2-4be2d8a7f99f">The south is shut</card>
+    <card qty="1" id="37677d57-37cb-4c5f-8d08-db41462d4c45">Avaricious traitors in your midst</card>
+    <card qty="1" id="ab617b96-bb96-4676-9c6f-eed4cd4e83ff">Sending a messenger to the city</card>
+    <card qty="1" id="2b8cfb9a-0bec-4490-9606-3b556d3609df">Assassination order</card>
+  </section>
+  <section name="Character" shared="False">
+    <card qty="4" id="750baf90-04ca-4438-8a7b-01973fcee0c4">The Fifth Shadow</card>
+    <card qty="4" id="90f5878d-88e1-4144-a92c-e9bcc7413b45">Infernal Hunter</card>
+    <card qty="4" id="4bce5988-8512-4a40-ba58-08ae9f96bbc4">Treacherous Arrow</card>
+    <card qty="4" id="fed62e9f-45c3-4278-a0b2-ff4120f3aba4">Pernicious Vanguard</card>
+    <card qty="4" id="6808eb21-0fef-4b0c-8f9e-a867955b9ca7">Convinced Fanatic</card>
+    <card qty="4" id="0a3fbaac-f4be-4801-85f7-ae069b85568b">Ravager of the Steppes</card>
+    <card qty="4" id="4c9f748b-f454-4591-9193-6e92835da9eb">Evil Beauty</card>
+    <card qty="4" id="645868d2-92a5-4aa9-8ae4-535f10ca9091">Hellhound</card>
+    <card qty="4" id="fbc79f47-96a1-4fe3-bef9-0662a06aaf82">Tormentor</card>
+    <card qty="4" id="9fbefd1b-f2a8-47ee-ae1b-4d59e37f6f0c">Galvan</card>
+  </section>
+  <section name="Attachment" shared="False">
+    <card qty="4" id="82325d11-76c9-4e68-82da-786f23968802">Touched by a shadow</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="4" id="4654dc36-d1f8-454f-b5c9-92a87adf3ee1">Galvan's tactic</card>
+    <card qty="4" id="386c818e-a5bb-4ae2-af21-34db41ec101b">The legion's reputation</card>
+    <card qty="4" id="09c5121d-3750-47ec-9a1b-af6ce721c4c5">Offering in the name of Lilith</card>
+    <card qty="4" id="c0c1b8a2-bedd-405c-862e-9434ae59cfcc">You served me well</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

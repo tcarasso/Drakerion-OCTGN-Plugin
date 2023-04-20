@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="556024c9-9079-4bce-aba8-0a4af34cc833">
+  <section name="Banner" shared="False">
+    <card qty="1" id="9fe3af48-2fa0-922c-9146-5ef6422a66b5">Banner of the twilight</card>
+  </section>
+  <section name="City" shared="False">
+    <card qty="1" id="b8945c0b-cb16-dc6e-b1e5-8c19749a44cc">Moïra Forgotten battlefield</card>
+  </section>
+  <section name="Sound the Retreat" shared="False">
+    <card qty="1" id="4b4ba35e-d632-406f-95fe-bc5923becddf">Sound the Retreat</card>
+  </section>
+  <section name="Maneuvers deck" shared="False">
+    <card qty="1" id="f495d5c3-5177-9052-9b9e-c893e599cbab">Sinister chant</card>
+    <card qty="1" id="9921ada6-37fc-678a-8ad5-26c56b7b8341">Still useful bones</card>
+    <card qty="1" id="ac6cbab3-c14e-c334-b44b-acb5cbd35853">Interested profanation</card>
+    <card qty="1" id="c1c739ee-a0ae-0e14-ac11-8568b75169b9">Forced truce</card>
+    <card qty="1" id="2b8cfb9a-0bec-4490-9606-3b556d3609df">Assasination order</card>
+    <card qty="1" id="a10e9a61-18f4-47f8-9298-f20f5e1cf24b">The north is shut</card>
+    <card qty="1" id="ab617b96-bb96-4676-9c6f-eed4cd4e83ff">Sending a messenger to the city</card>
+    <card qty="1" id="1633f321-d01f-4c49-b233-1894c5c8b109">Gathering information</card>
+  </section>
+  <section name="Character" shared="False">
+    <card qty="4" id="933917e4-c64e-9961-aaed-08e6a8875641">Resurrected champion</card>
+    <card qty="4" id="4f165727-4982-ea86-8c7b-9c03125208a8">Nekros End of all</card>
+    <card qty="4" id="c13a752b-e81b-6773-9193-e174db4a4105">Dead steed rider</card>
+    <card qty="4" id="c4474517-3d9b-e581-a6e2-e95273f2058e">Damned rider</card>
+    <card qty="4" id="86dcabf5-76a3-68c8-9839-7ad65428395d">Recruiter of sleepers</card>
+    <card qty="4" id="73ab9c2c-3e11-c672-831b-8837bb6eb1ab">Tyrant back from the dead</card>
+    <card qty="4" id="0664fca6-b457-e2a5-8316-e87f3664828e">Tireless warrior</card>
+    <card qty="4" id="8ea7a1bb-7235-c18b-a5fc-aed62eca6032">Bearer of twilight</card>
+    <card qty="4" id="8624ad73-d65c-374d-a66d-9e85d44350bd">Mira Gifted occultist</card>
+    <card qty="4" id="4b6cb716-5b5c-29e4-b2f9-9e94d17b4668">Stray orphan</card>
+  </section>
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False">
+    <card qty="4" id="4931d2ae-3ed7-7cd6-9562-913a83f7064b">Dancing with death</card>
+    <card qty="4" id="dc320263-fd9b-240c-ac57-8c8335958691">Sad whispers</card>
+    <card qty="4" id="83eefd6c-f43a-05a2-8468-54c566d6ba6e">Gathering bones</card>
+    <card qty="4" id="a839b7e4-ad46-04fb-a948-cd18617a76ef">Unexpected exhumation</card>
+    <card qty="4" id="98913402-688c-1615-a895-ec96b214be5a">Face your own death</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

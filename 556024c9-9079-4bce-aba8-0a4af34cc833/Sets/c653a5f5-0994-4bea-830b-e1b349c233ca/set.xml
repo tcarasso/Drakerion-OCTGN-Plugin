@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Beta Starters" id="c653a5f5-0994-4bea-830b-e1b349c233ca" gameId="556024c9-9079-4bce-aba8-0a4af34cc833" gameVersion="0.0.0.1" version="1.0">
+    <cards>
+        <card id="B8945C0B-CB16-DC6E-B1E5-8C19749A44CC" name="Moïra Forgotten battlefield">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Battlefield Skeleton"/>
+            <property name="Type" value="City"/>
+        </card>
+        <card id="9FE3AF48-2FA0-922C-9146-5EF6422A66B5" name="Banner of the twilight">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Skeleton"/>
+            <property name="Initiative" value="8"/>
+            <property name="Type" value="Banner"/>
+        </card>
+        <card id="933917E4-C64E-9961-AAED-08E6A8875641" name="Resurrected champion">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Horserider Knight Skeleton"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="6"/>
+            <property name="Prestige" value="2"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="4F165727-4982-EA86-8C7B-9C03125208A8" name="Nekros End of all">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Avatar Invocation Skeleton"/>
+            <property name="Cost" value="5"/>
+            <property name="Melee Attack" value="1"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="7"/>
+            <property name="Prestige" value="2"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="C13A752B-E81B-6773-9193-E174DB4A4105" name="Dead steed rider">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Horserider Skeleton"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="2"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="C4474517-3D9B-E581-A6E2-E95273F2058E" name="Damned rider">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Horserider Knight Skeleton"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="86DCABF5-76A3-68C8-9839-7AD65428395D" name="Recruiter of sleepers">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Recruiter Skeleton"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="73AB9C2C-3E11-C672-831B-8837BB6EB1AB" name="Tyrant back from the dead">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="King Skeleton"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="2"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="0664FCA6-B457-E2A5-8316-E87F3664828E" name="Tireless warrior">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Skeleton"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="1"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="8EA7A1BB-7235-C18B-A5FC-AED62ECA6032" name="Bearer of twilight">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Banner-Bearer Skeleton"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="4"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="8624AD73-D65C-374D-A66D-9E85D44350BD" name="Mira Gifted occultist">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Necromancer"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="1"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="3"/>
+            <property name="Prestige" value="1"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="4B6CB716-5B5C-29E4-B2F9-9E94D17B4668" name="Stray orphan">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Roaming Strigoï"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="4931D2AE-3ED7-7CD6-9562-913A83F7064B" name="Dancing with death">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Necromancer"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="DC320263-FD9B-240C-AC57-8C8335958691" name="Sad whispers">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Necromancer Song."/>
+            <property name="Cost" value="1"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="83EEFD6C-F43A-05A2-8468-54C566D6BA6E" name="Gathering bones">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Necromancer"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="A839B7E4-AD46-04FB-A948-CD18617A76EF" name="Unexpected exhumation">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Exhumation Necromancer"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="98913402-688C-1615-A895-EC96B214BE5A" name="Face your own death">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Necromancer"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="2b8cfb9a-0bec-4490-9606-3b556d3609df" name="Assasination order">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Infiltration"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="1633f321-d01f-4c49-b233-1894c5c8b109" name="Gathering information">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Infiltration"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="5"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="a10e9a61-18f4-47f8-9298-f20f5e1cf24b" name="The north is shut">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Weather"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="ab617b96-bb96-4676-9c6f-eed4cd4e83ff" name="Sending a messenger to the city">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Messenger"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="C1C739EE-A0AE-0E14-AC11-8568B75169B9" name="Forced truce">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Messenger"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="AC6CBAB3-C14E-C334-B44B-ACB5CBD35853" name="Interested profanation">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Cemetery"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="9921ADA6-37FC-678A-8AD5-26C56B7B8341" name="Still useful bones">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Cemetery"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="F495D5C3-5177-9052-9B9E-C893E599CBAB" name="Sinister chant">
+            <property name="Faction" value="Kartej"/>
+            <property name="Trait(s)" value="Cemetery Ritual"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="8"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="4b4ba35e-d632-406f-95fe-bc5923becddf" name="Sound the Retreat">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Type" value="Strategy"/>
+        </card>
+        <card id="4888465F-8970-62A2-9619-B765B31D17BB" name="Kharonis, Torn Haven">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Elf Dwarf"/>
+            <property name="Type" value="City"/>
+        </card>
+        <card id="C37DC675-4C88-91B4-84E5-A56533694A99" name="Alliance of the ancient folk">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Elf"/>
+            <property name="Initiative" value="6"/>
+            <property name="Type" value="Banner"/>
+        </card>
+        <card id="1124694D-D860-42AF-94D2-999AD16C4A6D" name="Resentful shooter">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Crossbowman Dwarf"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Ranged Attack" value="1"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="6D3BD3FE-D8A7-2A9D-9181-674F0A980B5F" name="Sylvan protector">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Archer Elf Scout Summer Grove"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="2"/>
+            <property name="Ranged Attack" value="2"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="455549B4-99FE-4CC6-A772-F39A2ABC6179" name="Thori Torkson King of the Mount Khairn">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf King Legend"/>
+            <property name="Cost" value="5"/>
+            <property name="Melee Attack" value="5"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="9"/>
+            <property name="Prestige" value="3"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="16225F94-6717-7E43-A586-41A58D696122" name="Guardians of the rock">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Elite"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="2B421AD8-CF81-954A-963D-2698B250CE43" name="Discreet thorn ">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Archer Elf Scout Summer Grove"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="0"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="1"/>
+            <property name="Ranged Attack" value="1"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="E3655F98-2D0C-B4E7-A639-87AB12218E35" name="Mount Khairn pathfinder">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Scout"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="7"/>
+            <property name="Prestige" value="2"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="D73D12ED-CF4A-9F61-B249-58E8EB6B9711" name="Morwern The last child">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Archer Captain Elf Scout Summer Grove"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Ranged Attack" value="3"/>
+            <property name="Prestige" value="2"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="5659372F-41CB-4CDF-97EE-8D96CBD2CAED" name="Arrogant hammerer">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="7"/>
+            <property name="Prestige" value="2"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="CC7B8257-DD6E-8F7C-91D9-DCCE1C341EF4" name="Hateful Assailant">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="0"/>
+            <property name="Health Points" value="4"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="8533299D-13A7-4D5F-9CC9-59A91D12576D" name="Angry guardian">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Autumn Grove Elf Scout"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="4"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="1D41C12A-4D33-8992-B651-D76E481C7862" name="From shame to grudge">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Order"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="B3356B27-C9C4-198A-992E-6C271BD4680A" name="Strike while the iron is hot">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Song"/>
+            <property name="Cost" value="1"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="F1C1EFAA-33FA-D224-85E4-BC1CC329197E" name="Mountain doesn't flinch">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Order"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="3494510E-B677-D6B6-9431-CC56FA7D52E8" name="Water is life">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Elemental Elf Heal Summer Grove"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="C95E653C-D2E9-DB58-A2C6-811DF0AE267E" name="The brother's choice">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Elf Song"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="a07aafaa-7fe7-4983-909a-04d88a33beae" name="Harvest time">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Weather"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="5"/>
+            <property name="Draw Value" value="1"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="37677d57-37cb-4c5f-8d08-db41462d4c45" name="Avaricious traitors in your midst">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Infiltration"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="BB3143F3-AE44-CB62-A24D-A78304E1D1B4" name="Host of Aerielle's glade">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Elf Healer Summer Grove"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="E197D7CC-198C-6F2A-AB7F-D3A4DB6192A5" name="Leaves won't fall alone">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Autumn Grove Elf"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="3"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="1989DE32-BC5D-C696-A79C-54D422438E64" name="The unspeakable pact">
+            <property name="Faction" value="Wasteland"/>
+            <property name="Trait(s)" value="Dwarf Elf"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="2869f308-ff40-40b8-8958-cac588bffff6" name="Fortress of the prime legion">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Fortress Prime Legion"/>
+            <property name="Type" value="City"/>
+        </card>
+        <card id="1d26a19f-48a8-4393-a31f-825942e9da20" name="Banner of the prime legion">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Initiative" value="9"/>
+            <property name="Type" value="Banner"/>
+        </card>
+        <card id="4c9f748b-f454-4591-9193-6e92835da9eb" name="Evil beauty">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion Recruiter Succubus"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="1"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="3"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="645868d2-92a5-4aa9-8ae4-535f10ca9091" name="Hellhound">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Hound Prime Legion"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="6"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="90f5878d-88e1-4144-a92c-e9bcc7413b45" name="Infernal hunter">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Demon Prime Legion"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="6"/>
+            <property name="Prestige" value="2"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="0a3fbaac-f4be-4801-85f7-ae069b85568b" name="Ravager of the steppes">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="6808eb21-0fef-4b0c-8f9e-a867955b9ca7" name="Convinced fanatic">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="2"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="9fbefd1b-f2a8-47ee-ae1b-4d59e37f6f0c" name="Galvan Chosen by Lilith">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="General Prime Legion"/>
+            <property name="Cost" value="5"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="4"/>
+            <property name="Health Points" value="7"/>
+            <property name="Prestige" value="3"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="750baf90-04ca-4438-8a7b-01973fcee0c4" name="The Fifth Shadow Lilith's offspring">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Demon Prime Legion Shadow"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="6"/>
+            <property name="Prestige" value="2"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="4bce5988-8512-4a40-ba58-08ae9f96bbc4" name="Treacherous arrow">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Archer Prime Legion"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="3"/>
+            <property name="Ranged Attack" value="0"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="fbc79f47-96a1-4fe3-bef9-0662a06aaf82" name="Tormentor">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="0"/>
+            <property name="Riposte" value="0"/>
+            <property name="Health Points" value="1"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="fed62e9f-45c3-4278-a0b2-ff4120f3aba4" name="Pernicious vanguard">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Demon Prime Legion"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="2"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="09c5121d-3750-47ec-9a1b-af6ce721c4c5" name="Offering in the name of Lilith">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="386c818e-a5bb-4ae2-af21-34db41ec101b" name="The legion's reputation">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="4654dc36-d1f8-454f-b5c9-92a87adf3ee1" name="Galvan's tactic">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="c0c1b8a2-bedd-405c-862e-9434ae59cfcc" name="You served me well">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="82325d11-76c9-4e68-82da-786f23968802" name="Touched by a shadow">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Bodyguard Prime Legion Shadow"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="1"/>
+            <property name="Health Points" value="1"/>
+            <property name="Type" value="Attachment"/>
+        </card>
+        <card id="cc5bf4ba-baea-4016-add2-4be2d8a7f99f" name="The south is shut">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Weather"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="5334fd69-f39d-49be-ae6d-d883ba5e79bb" name="Assault from dark paths">
+            <property name="Faction" value="Unaffiliated"/>
+            <property name="Trait(s)" value="Infiltration"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="4b6ef782-7632-4831-bcbc-7acc6d82fbf9" name="You can only join us">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion Recruiter."/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="51b2435d-c4f2-49f9-a215-8f8cd2369f51" name="This world is already ours">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Corruption Prime legion."/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="62b4247a-c388-4133-824c-9bda8cf854cf" name="Grow in their suffering">
+            <property name="Faction" value="Lokmar"/>
+            <property name="Trait(s)" value="Prime Legion Ritual."/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="5"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="26b4dd67-7de2-49ef-af23-3fe61fc1e0a3" name="Tyraslin, East Gate">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Wall"/>
+            <property name="Type" value="City"/>
+        </card>
+        <card id="2dd354ad-e5a9-4943-9117-7da05630daf0" name="Banner of the exiled">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Exiled"/>
+            <property name="Initiative" value="7"/>
+            <property name="Type" value="Banner"/>
+        </card>
+        <card id="def9e961-67a3-4e06-90e8-885c5b976954" name="Alanian pavise">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Alania Edge Circle Exiled"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="39d4acac-d2a8-4e09-b56c-2ca297f2c9f4" name="Phalanx of survivors">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Aquilon Edge Circle Exiled"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="1"/>
+            <property name="Health Points" value="5"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="b81717a3-9624-4713-a7d0-0fc60335fc7f" name="Last stand bearer">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Banner-Bearer Edge Circle Exiled"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="1"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="7"/>
+            <property name="Prestige" value="1"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="11149f55-956d-4be6-9a91-51b1187e4880" name="Tyraslinian scout">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Scout"/>
+            <property name="Cost" value="2"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="4"/>
+            <property name="Ranged Attack" value="0"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="6dd199f1-c614-40e7-bfe4-9d6577445ccd" name="Indebted blacksmith">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Artisan Edge Circle"/>
+            <property name="Cost" value="1"/>
+            <property name="Melee Attack" value="1"/>
+            <property name="Riposte" value="0"/>
+            <property name="Health Points" value="1"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="ac74f4b6-ef5c-4ed4-8942-eec369ba6d33" name="Landraygon Prince of the needy">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Horserider Noble"/>
+            <property name="Cost" value="6"/>
+            <property name="Melee Attack" value="5"/>
+            <property name="Riposte" value="4"/>
+            <property name="Health Points" value="8"/>
+            <property name="Prestige" value="3"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="324f760e-ef2a-44cb-80b9-0f13149fbf0f" name="Godric Simple man">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Captain Edge Circle"/>
+            <property name="Cost" value="5"/>
+            <property name="Melee Attack" value="4"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="7"/>
+            <property name="Prestige" value="3"/>
+            <property name="Named" value="Yes"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="83738227-6eba-456b-848b-2f36e0299852" name="Exalted volunteer">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle"/>
+            <property name="Cost" value="3"/>
+            <property name="Melee Attack" value="2"/>
+            <property name="Riposte" value="2"/>
+            <property name="Health Points" value="3"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="c097c91c-f132-412a-a9ce-1a8c62afa33e" name="Resourceful sapper">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle"/>
+            <property name="Cost" value="0"/>
+            <property name="Melee Attack" value="0"/>
+            <property name="Riposte" value="0"/>
+            <property name="Health Points" value="1"/>
+            <property name="Prestige" value="0"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="bda2c826-3488-42a3-b8a5-94af9f276ff8" name="Surly veteran">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Captain Edge Circle Exiled"/>
+            <property name="Cost" value="4"/>
+            <property name="Melee Attack" value="3"/>
+            <property name="Riposte" value="3"/>
+            <property name="Health Points" value="6"/>
+            <property name="Prestige" value="2"/>
+            <property name="Type" value="Character"/>
+        </card>
+        <card id="4a7e4c45-6361-4d40-a9a5-35de9e91a968" name="Protected by the walls">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Refuge."/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="234c4392-baa9-4314-aa94-b656656e31f8" name="Knowledge of the surroundings">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="8b10e10a-7183-4cb4-8417-7e805d515d45" name="Solidarity of the exiled">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Exiled"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Event"/>
+        </card>
+        <card id="d4137608-5ade-40c8-a796-a816f1d97553" name="Temporary bandage">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Heal Item"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Attachment"/>
+        </card>
+        <card id="ddc14366-ab23-4c37-ab31-de68ea4ffcbf" name="Scouts' report">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Item Scout"/>
+            <property name="Cost" value="0"/>
+            <property name="Type" value="Attachment"/>
+        </card>
+        <card id="5efa153a-897f-4e02-a0a8-0b5306666f97" name="Dead flowers">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle Exiled Song"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="e82febc2-40da-4752-ba71-c1f48092469a" name="Alone and without rampart">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Edge Circle"/>
+            <property name="Sub-type" value="Tactic"/>
+            <property name="Gold Value" value="6"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+        <card id="468fe064-bb93-42e7-ba41-b02781af17c8" name="Dip into the reserves">
+            <property name="Faction" value="Tyraslin"/>
+            <property name="Trait(s)" value="Armory Edge Circle"/>
+            <property name="Sub-type" value="Supply"/>
+            <property name="Gold Value" value="7"/>
+            <property name="Draw Value" value="2"/>
+            <property name="Type" value="Maneuver"/>
+        </card>
+    </cards>
+</set>

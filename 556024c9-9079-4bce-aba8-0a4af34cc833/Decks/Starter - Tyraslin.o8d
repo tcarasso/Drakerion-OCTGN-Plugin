@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="556024c9-9079-4bce-aba8-0a4af34cc833">
+  <section name="Banner" shared="False">
+    <card qty="1" id="2dd354ad-e5a9-4943-9117-7da05630daf0">Banner of the exiled</card>
+  </section>
+  <section name="City" shared="False">
+    <card qty="1" id="26b4dd67-7de2-49ef-af23-3fe61fc1e0a3">Tyraslin, Porte Est</card>
+  </section>
+  <section name="Sound the Retreat" shared="False">
+    <card qty="1" id="4b4ba35e-d632-406f-95fe-bc5923becddf">Sound the Retreat</card>
+  </section>
+  <section name="Maneuvers deck" shared="False">
+    <card qty="1" id="468fe064-bb93-42e7-ba41-b02781af17c8">Dip into the reserves</card>
+    <card qty="1" id="5efa153a-897f-4e02-a0a8-0b5306666f97">Dead flowers</card>
+    <card qty="1" id="e82febc2-40da-4752-ba71-c1f48092469a">Alone and without rempart</card>
+    <card qty="1" id="5334fd69-f39d-49be-ae6d-d883ba5e79bb">Assault from dark paths</card>
+    <card qty="1" id="a07aafaa-7fe7-4983-909a-04d88a33beae">Harvest time</card>
+    <card qty="1" id="cc5bf4ba-baea-4016-add2-4be2d8a7f99f">The south is shut</card>
+    <card qty="1" id="a10e9a61-18f4-47f8-9298-f20f5e1cf24b">The north is shut</card>
+    <card qty="1" id="1633f321-d01f-4c49-b233-1894c5c8b109">Gathering information</card>
+  </section>
+  <section name="Character" shared="False">
+    <card qty="4" id="def9e961-67a3-4e06-90e8-885c5b976954">Pavois Alaniens</card>
+    <card qty="4" id="39d4acac-d2a8-4e09-b56c-2ca297f2c9f4">Phalanx of Survivors</card>
+    <card qty="4" id="b81717a3-9624-4713-a7d0-0fc60335fc7f">Last Stand Bearer</card>
+    <card qty="4" id="c097c91c-f132-412a-a9ce-1a8c62afa33e">Resourceful Sapper</card>
+    <card qty="4" id="ac74f4b6-ef5c-4ed4-8942-eec369ba6d33">Landraygon</card>
+    <card qty="4" id="324f760e-ef2a-44cb-80b9-0f13149fbf0f">Godric</card>
+    <card qty="4" id="bda2c826-3488-42a3-b8a5-94af9f276ff8">Surly Veteran</card>
+    <card qty="4" id="83738227-6eba-456b-848b-2f36e0299852">Exalted Volunteer</card>
+    <card qty="4" id="6dd199f1-c614-40e7-bfe4-9d6577445ccd">Indebted Blacksmith</card>
+    <card qty="4" id="11149f55-956d-4be6-9a91-51b1187e4880">Tyraslinian Scout</card>
+  </section>
+  <section name="Attachment" shared="False">
+    <card qty="4" id="d4137608-5ade-40c8-a796-a816f1d97553">Temporary bandage</card>
+    <card qty="4" id="ddc14366-ab23-4c37-ab31-de68ea4ffcbf">Scouts' Report</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="4" id="234c4392-baa9-4314-aa94-b656656e31f8">Knowledge of the surroundings</card>
+    <card qty="4" id="4a7e4c45-6361-4d40-a9a5-35de9e91a968">Protected by the walls</card>
+    <card qty="4" id="8b10e10a-7183-4cb4-8417-7e805d515d45">Solidarity of the exiled</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
