@@ -10,7 +10,7 @@ Launcher and Image Packs updates are live, new Patch is also available for previ
 Here you'll find :
 
 - An open source fan made (with the kind support of the OCTGN community and Drakerion TCG team) code for the Drakerion Plugin for OCTGN
-- A convenient executable that will install the OCTGN app and a dedicated launcher that will automatically install all image packs in your prefered language (French and English for now) : https://github.com/tcarasso/Drakerion-OCTGN-Plugin/releases/tag/Launcher
+- A convenient executable that will install the OCTGN app and a dedicated launcher that will automatically install all image packs in your prefered language (French and English for now) : https://github.com/tcarasso/Drakerion-OCTGN-Plugin/releases/download/Launcher_v1.1/Drakerion_OCTGN_Launcher.exe
 - A Patch executable to update your already installed Launcher and Plugin : https://github.com/tcarasso/Drakerion-OCTGN-Plugin/releases/download/Launcher_v1.1/Patch_1.1.exe
 - .o8c image packs if you know how to and want to install your image packs manually (Games Manager -> Add Image Packs -> select your .o8c -> you're done, congrats !) : https://github.com/tcarasso/Drakerion-OCTGN-Plugin/releases/tag/ImagePacks
 
