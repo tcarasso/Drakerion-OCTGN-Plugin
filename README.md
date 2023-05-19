@@ -1,10 +1,17 @@
 # Drakerion-OCTGN-Plugin
 A OCTGN Plugin for Drakerion TCG
 
+Lastest Beta Starter Deck is here \o/ !
+
+First and foremost, if you like the game and haven't done it already, Go support Drakerion's KS (https://www.kickstarter.com/projects/loremastergame/drakerion-tcg) while you can !
+
+Launcher and Image Packs updates are live, new Patch is also available for previous Launcher Users !
+
 Here you'll find :
 
 - An open source fan made (with the kind support of the OCTGN community and Drakerion TCG team) code for the Drakerion Plugin for OCTGN
 - A convenient executable that will install the OCTGN app and a dedicated launcher that will automatically install all image packs in your prefered language (French and English for now) : https://github.com/tcarasso/Drakerion-OCTGN-Plugin/releases/tag/Launcher
+- A Patch executable to update your already installed Launcher and Plugin !
 - .o8c image packs if you know how to and want to install your image packs manually (Games Manager -> Add Image Packs -> select your .o8c -> you're done, congrats !) : https://github.com/tcarasso/Drakerion-OCTGN-Plugin/releases/tag/ImagePacks
 
 Octgn is an app that allow you to play many cardgames online, for free, that supports low specs computers, with some great scripted functionnality to make your experience as smooth as possible, along side a powerful and easy to use Deckbuilder !
